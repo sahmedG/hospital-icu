@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B90E2DF-1E19-87C6-2143-688E7B2C7DEB" name="APPOINTMENT2">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 19:12:46 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VISIT_ID" id="0B152663-5119-F398-8642-A4C50C3138BD">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 19:22:54 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>9</dataTypeScale>
+<ownDataTypeParameters>,,9</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSON" id="AAB3744D-F79D-B45D-FDF3-1FEB668C5B26">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 19:22:54 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40B8E530-77AB-6634-0C5D-6A024EF3DF2B" referredColumn="B2C62B22-42D1-3EDD-0FAA-F3C2F13C145B"/>
+</associations>
+</Column>
+<Column name="PROVIDER" id="C1CE8E18-DB38-4CFD-7192-309F23A4EBFD">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 19:22:54 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F3DB8479-DD87-570B-D3F3-5121DBC08009</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPECIALTY" id="259A8EE6-EAA7-3A66-F810-117C2B5CCC34">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 19:22:54 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D465D99B-6128-F46F-C948-8153F2C8A0CB" referredColumn="5FA410BF-1257-4F0F-F030-12AE77DFC3F7"/>
+</associations>
+</Column>
+<Column name="TYPE" id="FC5F2C14-1DCB-4D1A-4C6A-8CC3123B5B26">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 19:22:54 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="88448EEB-B5F5-FDD4-5498-7B431A7F5CEE">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 19:22:54 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="URGENT" id="C47E1302-A92B-8A4F-E633-EC75388C5607">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 19:22:54 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APPOINTMENT_TIME" id="5CCF6E1B-E436-5622-1543-2D3D505C5986">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 19:22:54 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="9E8614A4-ED7B-AF0C-5730-B668295E7752">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 19:22:54 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_ON" id="859079DD-820A-FBBA-E2F1-19A1D72F4DAA">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 19:22:54 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_BY" id="39A44723-EA36-4647-2B98-952BC59BAE83">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 19:22:54 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_ON" id="FC4EC452-B66E-A463-B75C-5C52A3515896">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 19:22:54 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5C8FD6D-4DB5-4E52-7DAF-5DAFFC3F5823" name="APPOINTMENT_PK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 19:22:54 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B152663-5119-F398-8642-A4C50C3138BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="231E1649-5DA3-284D-2DE5-C77AC565CD3C" name="APPOINTMENT2__IDX">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 20:07:18 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B152663-5119-F398-8642-A4C50C3138BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0F48FEF-7CC0-0697-CB7A-83DD36E495EA" name="APPOINTMENT_SPECIALTY_FK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 19:24:01 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="259A8EE6-EAA7-3A66-F810-117C2B5CCC34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9DFA56A-6F26-3457-7CF9-810BFEA76339" name="APPOINTMENT_PATIENT2_FK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 19:24:58 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAB3744D-F79D-B45D-FDF3-1FEB668C5B26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

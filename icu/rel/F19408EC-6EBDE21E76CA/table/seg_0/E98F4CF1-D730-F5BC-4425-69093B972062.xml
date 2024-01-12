@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E98F4CF1-D730-F5BC-4425-69093B972062" name="PERSONid">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 12:41:08 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERSON_ID" id="1BD44309-2876-A4F7-FBD4-AD2A64B88985">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 12:41:45 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3162523B-55CD-3588-BAF3-B25348D32164" name="PERSON_PK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 12:41:45 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BD44309-2876-A4F7-FBD4-AD2A64B88985"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

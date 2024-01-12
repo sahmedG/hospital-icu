@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="PROVIDER_T1" directorySegmentName="seg_0" id="E2812C42-DB19-5E2D-3F04-C98F6302583E">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>SAMIRAHMED</sourceObjSchema>
+<sourceObjName>PROVIDER_T1</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:39 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body>begin&lt;br/&gt;IF INSERTING THEN &lt;br/&gt;  :NEW.CREATED_ON := CURRENT_TIMESTAMP();&lt;br/&gt;  :NEW.CREATED_BY := V(&apos;APP_USER&apos;);&lt;br/&gt;  :NEW.UPDATED_ON := CURRENT_TIMESTAMP();&lt;br/&gt;  :NEW.UPDATED_BY := V(&apos;APP_USER&apos;);  &lt;br/&gt;END IF;&lt;br/&gt;IF UPDATING THEN&lt;br/&gt;  :NEW.UPDATED_ON := CURRENT_TIMESTAMP();&lt;br/&gt;  :NEW.UPDATED_BY := V(&apos;APP_USER&apos;);  &lt;br/&gt;END IF;&lt;br/&gt;end;&lt;br/&gt;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>8C001BB8-B938-1DA6-3155-AAD43E5B1217</owner>
+<table>ABE552B2-FBED-701C-B5D5-77D0F4579E0B</table>
+</TriggerOraclev10g>

@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Alert_NAMES" directorySegmentName="seg_0" id="771203A5-978E-BC94-4E3B-3443790A9F08">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:15:13 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="5077E364-7F92-1BC3-8D09-285281DEB67A">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:23:25 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIBTION" id="8120AB5A-0556-F0E7-D4CD-7951E276E133">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:23:25 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Alert_PK" id="C6F970E3-6663-FC34-D831-89DB93C8F327">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:23:25 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="TSpace" objectID="2777BE3F-7B63-6578-92B6-F199FF6B6A59" name="USERS" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="User" objectID="8C001BB8-B938-1DA6-3155-AAD43E5B1217" name="SAMIRAHMED" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="165AFD3E-3534-A6C7-9B97-E768C4F32337" name="PERSON" seqName="seg_0"/>
+   <object objectType="Table" objectID="2447C6F7-3C1F-84B6-BB10-E9A817BCFF75" name="SPECIALTY" seqName="seg_0"/>
+   <object objectType="Table" objectID="3B90E2DF-1E19-87C6-2143-688E7B2C7DEB" name="APPOINTMENT2" seqName="seg_0"/>
+   <object objectType="Table" objectID="432A53D1-D176-9D1F-FD6B-13567FB1618A" name="RANK" seqName="seg_0"/>
+   <object objectType="Table" objectID="763DEB1F-6DE9-31DE-1981-5F7E84F00F83" name="PATIENT2" seqName="seg_0"/>
+   <object objectType="Table" objectID="ABE552B2-FBED-701C-B5D5-77D0F4579E0B" name="PROVIDER" seqName="seg_0"/>
+   <object objectType="Segment" objectID="8363FDD9-778E-8EC6-9118-835C163DF589" name="Storage1" seqName="seg_0"/>
+   <object objectType="Segment" objectID="268821B0-4774-509F-6B2C-BCFA79E5C7CB" name="Storage6" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="8491ACA9-535E-14BE-658B-2AB6C9FCFFF1" name="PATIENT2_T1" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="97A90232-27B8-A9AD-AB6C-A8A3AB86A222" name="PERSON_T1" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="E2812C42-DB19-5E2D-3F04-C98F6302583E" name="PROVIDER_T1" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

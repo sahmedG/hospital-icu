@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2447C6F7-3C1F-84B6-BB10-E9A817BCFF75" schemaObject="1EF77845-325A-999B-1249-4EAE84CE6083" name="SPECIALTY">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>SAMIRAHMED</sourceObjSchema>
+<sourceObjName>SPECIALTY</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:37 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SPECIALTY_ID" id="5FA410BF-1257-4F0F-F030-12AE77DFC3F7">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>SPECIALTY</sourceObjSchema>
+<sourceObjName>SPECIALTY_ID</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:37 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SPECIALTY_SPECIALTY_ID_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>SPECIALTY_SPECIALTY_ID_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="SPECIALTY_NAME" id="9F40B55B-5B00-1A73-C4B1-B70EC70FDB22">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>SPECIALTY</sourceObjSchema>
+<sourceObjName>SPECIALTY_NAME</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:37 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARENT_SPECIALTY" id="460BE1C0-81A7-1CAA-393A-0049F1AE67FD">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>SPECIALTY</sourceObjSchema>
+<sourceObjName>PARENT_SPECIALTY</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:37 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1F98BB7-3C38-B7F3-C67A-77CB263EAAF8" referredColumn="5FA410BF-1257-4F0F-F030-12AE77DFC3F7"/>
+</associations>
+</Column>
+<Column name="CREATED_BY" id="B5D74B9B-A549-660A-67A1-BCD729D7E7D4">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>SPECIALTY</sourceObjSchema>
+<sourceObjName>CREATED_BY</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:37 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_ON" id="5495834C-E068-7645-825A-26931D6618CB">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>SPECIALTY</sourceObjSchema>
+<sourceObjName>CREATED_ON</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:37 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_BY" id="19C65640-D848-089D-75C6-785428F091C0">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>SPECIALTY</sourceObjSchema>
+<sourceObjName>UPDATED_BY</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:37 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_ON" id="EDDCF5E7-3950-C878-FD96-6A1DEEF03AF3">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>SPECIALTY</sourceObjSchema>
+<sourceObjName>UPDATED_ON</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:37 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9973F3E7-CE1B-C0CE-642D-FDED377838C1" name="SPECIALTY_PK">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>SAMIRAHMED</sourceObjSchema>
+<sourceObjName>SPECIALTY_PK</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:39 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FA410BF-1257-4F0F-F030-12AE77DFC3F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10784E26-78B3-C150-CD0D-B8F146EFEBC0" schemaObject="1EF77845-325A-999B-1249-4EAE84CE6083" name="SPECIALTY_PK">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>SAMIRAHMED</sourceObjSchema>
+<sourceObjName>SPECIALTY_PK</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:38 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FA410BF-1257-4F0F-F030-12AE77DFC3F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC11F5CD-8C21-0872-EE74-DC54A8850656" name="SPECIALTY_SPECIALTY_FK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:41 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="460BE1C0-81A7-1CAA-393A-0049F1AE67FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

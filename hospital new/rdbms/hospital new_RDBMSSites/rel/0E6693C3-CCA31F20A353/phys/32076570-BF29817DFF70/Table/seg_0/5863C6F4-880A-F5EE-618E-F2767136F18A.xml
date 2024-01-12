@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CLINICAL_OUTPATIENT" directorySegmentName="seg_0" id="5863C6F4-880A-F5EE-618E-F2767136F18A">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:30:03 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="RADIOLOGY" id="0294280F-6B60-7913-59A3-266E7D2770A5">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:03:08 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PLAN" id="06C5FE23-A9ED-7278-EBEB-B38841034159">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:32:39 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LABORATORY" id="0AED060D-D23F-2F0D-2359-0E481EEE1D22">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:08:59 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SPECIALTY" id="30E8BFB6-83AE-1ED5-DD3B-689BFB54C6BC">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:32:39 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ALLERGIES" id="3D163F6A-FA52-1471-2AB8-DD411429F212">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:32:39 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOTES" id="455AC73D-2B75-23A3-188A-5E2132F0084B">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:32:39 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OUTCOME" id="49C59D30-D29E-6B8C-2674-9772D1D4D7C0">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:32:39 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="624A9C2A-9A5A-8042-A0B4-151E4FA5C5DF">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:32:39 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PERSON" id="7E76072C-F868-103D-90C7-6ACC0B4B99D7">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:32:39 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATED_ON" id="819A690F-F7B0-19E3-A116-B7ADCF1856BE">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:03:08 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_ON" id="AA7C4D87-D7C9-9728-35B6-01C8ECDADAB8">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:03:08 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIAGNOSES" id="C306A05A-F28D-6851-3A94-6402CA99342A">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:32:39 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATED_BY" id="D6D1AF9C-8928-3793-4B62-9963A74CA417">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:03:08 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VISIT" id="DA4BC8A8-8C35-E59E-ABC9-C05E26C12526">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:32:39 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_BY" id="F3B318C4-E145-BB40-336C-FBD43A0C5217">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:03:08 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ALERT" id="FA963762-A012-6771-C759-5373B549F9E9">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:32:39 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CLINICAL OUTPATIENT_LAB_TESTS_FK" id="0206C64F-ECD4-855C-D3A7-CDBD5BDA8358">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:11:53 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CLINICAL OUTPATIENT_PERSON_FK" id="3F5F8550-A2B2-CA3D-8635-B32D21495EDE">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:26:34 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CLINICAL OUTPATIENT_APPOINTMENT2_FK" id="6A2BC7A1-12AF-3253-C171-4EC6777974DB">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:25:49 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CLINICAL OUTPATIENT_OUTCOME_FK" id="7296E8B9-F8B2-69BD-6D5E-8E3F79C5486B">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:27:36 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CLINICAL OUTPATIENT_RAD_PROCEDURES_FK" id="88C9E2AF-1973-B0D1-A157-C4CC18F0B3F5">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:08:15 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CLINICAL OUTPATIENT_DIAGNOSES_NAMES_FK" id="8B512D77-4485-0976-9A47-94CB71AF6ADA">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:10:11 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CLINICAL OUTPATIENT_Alert_NAMES_FK" id="8C39F5D6-1678-F06F-AF2A-CC91C2FC3D79">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:09:50 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CLINICAL OUTPATIENT_SPECIALTY_FK" id="986B0EEB-FD4C-A5D4-1186-312BE51489E7">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:13:15 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CLINICAL OUTPATIENT_Allergies_NAMES_FK" id="B914AE63-CF74-F0A2-72BE-E2C49CA33234">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:09:58 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CLINICAL OUTPATIENT_PK" id="8F7B7E65-9A91-3AFD-8CEA-D5DF20863043">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:32:39 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

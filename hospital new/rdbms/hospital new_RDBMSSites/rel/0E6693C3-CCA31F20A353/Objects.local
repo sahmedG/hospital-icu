@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="AA35238C-1798-996F-D28F-D5E7A93877F8" name="SAMIRAHMED" seqName="seg_0"/>
+   <object objectType="Table" objectID="26EE5D3D-6546-C427-DB29-11EC6A313131" name="APPOINTMENT2" seqName="seg_0"/>
+   <object objectType="Table" objectID="DA1B2A4F-75D9-6C2C-A178-A21361141527" name="Admission_REQUEST" seqName="seg_0"/>
+   <object objectType="Table" objectID="771203A5-978E-BC94-4E3B-3443790A9F08" name="Alert_NAMES" seqName="seg_0"/>
+   <object objectType="Table" objectID="2EC305F8-0F4C-F9CC-A8C1-78245EAEE01E" name="Allergies_NAMES" seqName="seg_0"/>
+   <object objectType="Table" objectID="5863C6F4-880A-F5EE-618E-F2767136F18A" name="CLINICAL_OUTPATIENT" seqName="seg_0"/>
+   <object objectType="Table" objectID="3A054766-2F2C-76C1-8C15-9DCA95B7164C" name="DIAGNOSES_NAMES" seqName="seg_0"/>
+   <object objectType="Table" objectID="491E2A10-F322-176D-5211-875AA9410C0F" name="LAB_REQUEST" seqName="seg_0"/>
+   <object objectType="Table" objectID="86867BB0-F0BA-0402-8512-CC583998C0D0" name="LAB_TESTS" seqName="seg_0"/>
+   <object objectType="Table" objectID="15898FB1-E20F-70E1-8EED-3718F1E85DCE" name="OBSERVATION2" seqName="seg_0"/>
+   <object objectType="Table" objectID="4638DF69-5F45-0F21-54C7-582C59958224" name="OUTCOME" seqName="seg_0"/>
+   <object objectType="Table" objectID="4C353711-DB0A-872A-057E-4CA0664F01CC" name="PATIENT2" seqName="seg_0"/>
+   <object objectType="Table" objectID="A370A482-C401-2A38-95DB-CF8B781E5A6F" name="PERSON" seqName="seg_0"/>
+   <object objectType="Table" objectID="69F974D4-E9D6-E008-E366-947EFB639166" name="PROVIDER" seqName="seg_0"/>
+   <object objectType="Table" objectID="36FAAEAB-FE77-E45D-0526-0FF83A3640AE" name="RADIOLOGY_REQUEST" seqName="seg_0"/>
+   <object objectType="Table" objectID="1EEAA780-342F-76A4-5CE7-16E49A19A139" name="RAD_PROCEDURES" seqName="seg_0"/>
+   <object objectType="Table" objectID="7799B738-13F1-C623-FE28-51D7BCA94332" name="RANK" seqName="seg_0"/>
+   <object objectType="Table" objectID="F60A395A-F093-C7E1-7A24-C5EC0DFA76D4" name="SPECIALTY" seqName="seg_0"/>
+   <object objectType="Table" objectID="961E1141-2DE0-2CDA-F588-90F06F4211EB" name="Triage_Table" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B2157112-3A3B-FA60-CAB6-98F07AA87F90" name="APPOINTMENT_PATIENT2_FK" seqName="seg_0" containerID="26EE5D3D-6546-C427-DB29-11EC6A313131" refContainerID="4C353711-DB0A-872A-057E-4CA0664F01CC"/>
+   <object objectType="FKIndexAssociation" objectID="BE7E1F58-F32B-7B79-C2CF-BB28E929991D" name="APPOINTMENT_SPECIALTY_FK" seqName="seg_0" containerID="26EE5D3D-6546-C427-DB29-11EC6A313131" refContainerID="F60A395A-F093-C7E1-7A24-C5EC0DFA76D4"/>
+   <object objectType="FKIndexAssociation" objectID="28356464-ED58-68E8-A1B3-FA5A90DDB1F2" name="CLINICAL OUTPATIENT_APPOINTMENT2_FK" seqName="seg_0" containerID="5863C6F4-880A-F5EE-618E-F2767136F18A" refContainerID="26EE5D3D-6546-C427-DB29-11EC6A313131"/>
+   <object objectType="FKIndexAssociation" objectID="5BAF2811-CA58-3955-CF58-CB227A803E10" name="CLINICAL OUTPATIENT_Alert_NAMES_FK" seqName="seg_0" containerID="5863C6F4-880A-F5EE-618E-F2767136F18A" refContainerID="771203A5-978E-BC94-4E3B-3443790A9F08"/>
+   <object objectType="FKIndexAssociation" objectID="D23650FF-A2A0-8C26-2165-A838F476C382" name="CLINICAL OUTPATIENT_Allergies_NAMES_FK" seqName="seg_0" containerID="5863C6F4-880A-F5EE-618E-F2767136F18A" refContainerID="2EC305F8-0F4C-F9CC-A8C1-78245EAEE01E"/>
+   <object objectType="FKIndexAssociation" objectID="2858A6E2-4BFF-062D-7904-5A1F1938F4FE" name="CLINICAL OUTPATIENT_DIAGNOSES_NAMES_FK" seqName="seg_0" containerID="5863C6F4-880A-F5EE-618E-F2767136F18A" refContainerID="3A054766-2F2C-76C1-8C15-9DCA95B7164C"/>
+   <object objectType="FKIndexAssociation" objectID="F09F618C-A9AA-1C29-CF81-98FA0DFD8C92" name="CLINICAL OUTPATIENT_LAB_TESTS_FK" seqName="seg_0" containerID="5863C6F4-880A-F5EE-618E-F2767136F18A" refContainerID="86867BB0-F0BA-0402-8512-CC583998C0D0"/>
+   <object objectType="FKIndexAssociation" objectID="BE3D14F6-8241-E9A1-71A4-D06DDCC09813" name="CLINICAL OUTPATIENT_OUTCOME_FK" seqName="seg_0" containerID="5863C6F4-880A-F5EE-618E-F2767136F18A" refContainerID="4638DF69-5F45-0F21-54C7-582C59958224"/>
+   <object objectType="FKIndexAssociation" objectID="FB52EC31-7B67-20B8-3BD0-1823E8D79BCE" name="CLINICAL OUTPATIENT_PERSON_FK" seqName="seg_0" containerID="5863C6F4-880A-F5EE-618E-F2767136F18A" refContainerID="A370A482-C401-2A38-95DB-CF8B781E5A6F"/>
+   <object objectType="FKIndexAssociation" objectID="5CE1FF44-54E0-FDB0-8070-71B083DDACA7" name="CLINICAL OUTPATIENT_RAD_PROCEDURES_FK" seqName="seg_0" containerID="5863C6F4-880A-F5EE-618E-F2767136F18A" refContainerID="1EEAA780-342F-76A4-5CE7-16E49A19A139"/>
+   <object objectType="FKIndexAssociation" objectID="B6022705-CB2B-5A82-82F1-F8EB208D182D" name="CLINICAL OUTPATIENT_SPECIALTY_FK" seqName="seg_0" containerID="5863C6F4-880A-F5EE-618E-F2767136F18A" refContainerID="F60A395A-F093-C7E1-7A24-C5EC0DFA76D4"/>
+   <object objectType="FKIndexAssociation" objectID="3512910C-4BF4-D215-EA4F-731ECC8AFA73" name="LAB_REQUEST_CLINICAL OUTPATIENT_FK" seqName="seg_0" containerID="491E2A10-F322-176D-5211-875AA9410C0F" refContainerID="5863C6F4-880A-F5EE-618E-F2767136F18A"/>
+   <object objectType="FKIndexAssociation" objectID="8A19D38B-51B2-E9F4-1143-EE2BC6AFE6E8" name="LAB_REQUEST_LAB_TESTS_FK" seqName="seg_0" containerID="491E2A10-F322-176D-5211-875AA9410C0F" refContainerID="86867BB0-F0BA-0402-8512-CC583998C0D0"/>
+   <object objectType="FKIndexAssociation" objectID="934ECAF3-68DA-5280-3438-20BD193D6D09" name="LAB_REQUEST_SPECIALTY_FK" seqName="seg_0" containerID="491E2A10-F322-176D-5211-875AA9410C0F" refContainerID="F60A395A-F093-C7E1-7A24-C5EC0DFA76D4"/>
+   <object objectType="FKIndexAssociation" objectID="DA743D58-5DFA-7952-38E8-9DBA011F8C25" name="OBSERVATION2_APPOINTMENT2_FK" seqName="seg_0" containerID="15898FB1-E20F-70E1-8EED-3718F1E85DCE" refContainerID="26EE5D3D-6546-C427-DB29-11EC6A313131"/>
+   <object objectType="FKIndexAssociation" objectID="58AF1A50-CD9A-9AD8-4A6B-A2B3351EA997" name="OBSERVATION2_PERSON_FK" seqName="seg_0" containerID="15898FB1-E20F-70E1-8EED-3718F1E85DCE" refContainerID="A370A482-C401-2A38-95DB-CF8B781E5A6F"/>
+   <object objectType="FKIndexAssociation" objectID="A5B3D105-3BEE-2924-9CED-F2A05EDC6D93" name="PATIENT2_PERSON_FK" seqName="seg_0" containerID="4C353711-DB0A-872A-057E-4CA0664F01CC" refContainerID="A370A482-C401-2A38-95DB-CF8B781E5A6F"/>
+   <object objectType="FKIndexAssociation" objectID="BAB62EDE-E552-5AF4-1486-77FC1385D9FA" name="PROVIDER_PERSON_FK" seqName="seg_0" containerID="69F974D4-E9D6-E008-E366-947EFB639166" refContainerID="A370A482-C401-2A38-95DB-CF8B781E5A6F"/>
+   <object objectType="FKIndexAssociation" objectID="C51A3056-B844-2761-5123-B4EA1C93DB64" name="PROVIDER_RANK_FK" seqName="seg_0" containerID="69F974D4-E9D6-E008-E366-947EFB639166" refContainerID="7799B738-13F1-C623-FE28-51D7BCA94332"/>
+   <object objectType="FKIndexAssociation" objectID="AC80E987-1BA1-0D8F-C77E-34A39E504173" name="PROVIDER_SPECIALTY_FK" seqName="seg_0" containerID="69F974D4-E9D6-E008-E366-947EFB639166" refContainerID="F60A395A-F093-C7E1-7A24-C5EC0DFA76D4"/>
+   <object objectType="FKIndexAssociation" objectID="FB2AA017-50A8-ADC9-BF28-2C9C736B7AF1" name="RADIOLOGY_REQUEST_CLINICAL OUTPATIENT_FK" seqName="seg_0" containerID="36FAAEAB-FE77-E45D-0526-0FF83A3640AE" refContainerID="5863C6F4-880A-F5EE-618E-F2767136F18A"/>
+   <object objectType="FKIndexAssociation" objectID="8E5E69AD-3004-3C4F-172D-0A47621ABD56" name="RADIOLOGY_REQUEST_DIAGNOSES_NAMES_FK" seqName="seg_0" containerID="36FAAEAB-FE77-E45D-0526-0FF83A3640AE" refContainerID="3A054766-2F2C-76C1-8C15-9DCA95B7164C"/>
+   <object objectType="FKIndexAssociation" objectID="89928A39-1A9E-0B12-49F8-39EBB51B3CEB" name="RADIOLOGY_REQUEST_RAD_PROCEDURES_FK" seqName="seg_0" containerID="36FAAEAB-FE77-E45D-0526-0FF83A3640AE" refContainerID="1EEAA780-342F-76A4-5CE7-16E49A19A139"/>
+   <object objectType="FKIndexAssociation" objectID="74EE7273-4223-C3F6-69A1-94FCB7F8E467" name="RADIOLOGY_REQUEST_SPECIALTY_FK" seqName="seg_0" containerID="36FAAEAB-FE77-E45D-0526-0FF83A3640AE" refContainerID="F60A395A-F093-C7E1-7A24-C5EC0DFA76D4"/>
+   <object objectType="FKIndexAssociation" objectID="8800461B-85BE-1E7A-D0BE-ABEF50D50B0D" name="SPECIALTY_SPECIALTY_FK" seqName="seg_0" containerID="F60A395A-F093-C7E1-7A24-C5EC0DFA76D4" refContainerID="F60A395A-F093-C7E1-7A24-C5EC0DFA76D4"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

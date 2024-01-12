@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="0BC3DB15-E947-5B14-BF82-1B5799A7C6F4" name="SAMIRAHMED" seqName="seg_0"/>
+   <object objectType="Table" objectID="F2036B91-ABC6-15B9-69D5-E218392C10C0" name="7" seqName="seg_0"/>
+   <object objectType="Table" objectID="AA9114EA-8B8D-5F9A-6A84-6372B4830854" name="7v1" seqName="seg_0"/>
+   <object objectType="Table" objectID="70E558FC-CFE1-4503-659F-563EAF2C6BF3" name="7v2" seqName="seg_0"/>
+   <object objectType="Table" objectID="0FA1862F-5033-8B2F-C0DE-01820B44E665" name="7v3" seqName="seg_0"/>
+   <object objectType="Table" objectID="F218C712-382D-9FF6-4BC7-7275427B3231" name="LOGINFO" seqName="seg_0"/>
+   <object objectType="Table" objectID="E98F4CF1-D730-F5BC-4425-69093B972062" name="PERSONid" seqName="seg_0"/>
+   <object objectType="Table" objectID="C4166819-8FF7-09A4-3509-2B7389D38978" name="log" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="449C1C86-2047-3F52-16E3-67FC46935D87" name="7_PERSON_FK" seqName="seg_0" containerID="F2036B91-ABC6-15B9-69D5-E218392C10C0" refContainerID="E98F4CF1-D730-F5BC-4425-69093B972062"/>
+   <object objectType="FKIndexAssociation" objectID="9A850DB8-C879-10B2-66CB-517EB0D78791" name="7v1_PERSON_FK" seqName="seg_0" containerID="AA9114EA-8B8D-5F9A-6A84-6372B4830854" refContainerID="E98F4CF1-D730-F5BC-4425-69093B972062"/>
+   <object objectType="FKIndexAssociation" objectID="C5968885-22EC-FD54-56E9-E37D338B91D9" name="7v2_PERSON_FK" seqName="seg_0" containerID="70E558FC-CFE1-4503-659F-563EAF2C6BF3" refContainerID="E98F4CF1-D730-F5BC-4425-69093B972062"/>
+   <object objectType="FKIndexAssociation" objectID="42CE4385-CDAF-BA2A-2497-04AF3D74A8D9" name="7v3_PERSON_FK" seqName="seg_0" containerID="0FA1862F-5033-8B2F-C0DE-01820B44E665" refContainerID="E98F4CF1-D730-F5BC-4425-69093B972062"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

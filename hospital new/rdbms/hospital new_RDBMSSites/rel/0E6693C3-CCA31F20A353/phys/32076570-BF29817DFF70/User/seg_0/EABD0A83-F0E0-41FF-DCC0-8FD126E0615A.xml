@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="SAMIRAHMED" directorySegmentName="seg_0" id="EABD0A83-F0E0-41FF-DCC0-8FD126E0615A">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjName>SAMIRAHMED</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:14:23 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<schemaObject>AA35238C-1798-996F-D28F-D5E7A93877F8</schemaObject>
+</UserOraclev10g>

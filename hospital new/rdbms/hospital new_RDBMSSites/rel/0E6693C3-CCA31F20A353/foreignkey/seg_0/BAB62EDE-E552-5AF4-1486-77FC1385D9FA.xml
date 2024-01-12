@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BAB62EDE-E552-5AF4-1486-77FC1385D9FA" containerWithKeyObject="69F974D4-E9D6-E008-E366-947EFB639166" localFKIndex="65B64C27-8C41-6698-EC6B-FE38C9F64277" name="PROVIDER_PERSON_FK">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>SAMIRAHMED</sourceObjSchema>
+<sourceObjName>PROVIDER_PERSON_FK</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:14:25 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A370A482-C401-2A38-95DB-CF8B781E5A6F</referredTableID>
+<keyObject>8130D8DF-171E-1004-FFF0-35ACFCF77229</keyObject>
+<referredKeyID>8130D8DF-171E-1004-FFF0-35ACFCF77229</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

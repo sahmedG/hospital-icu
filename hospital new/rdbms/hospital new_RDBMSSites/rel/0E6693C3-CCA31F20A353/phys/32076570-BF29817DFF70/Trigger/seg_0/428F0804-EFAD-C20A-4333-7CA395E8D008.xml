@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="OBSERVATION2_T1" directorySegmentName="seg_0" id="428F0804-EFAD-C20A-4333-7CA395E8D008">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>SAMIRAHMED</sourceObjSchema>
+<sourceObjName>OBSERVATION2_T1</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:14:25 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body>begin&lt;br/&gt;IF INSERTING THEN &lt;br/&gt;  :NEW.CREATED_ON := CURRENT_TIMESTAMP();&lt;br/&gt;  :NEW.CREATED_BY := V(&apos;APP_USER&apos;);&lt;br/&gt;END IF;&lt;br/&gt;end;&lt;br/&gt;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>EABD0A83-F0E0-41FF-DCC0-8FD126E0615A</owner>
+<table>15898FB1-E20F-70E1-8EED-3718F1E85DCE</table>
+</TriggerOraclev10g>

@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="LOGINFO" directorySegmentName="seg_0" id="F218C712-382D-9FF6-4BC7-7275427B3231">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:10:29 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<schemaObject>0BC3DB15-E947-5B14-BF82-1B5799A7C6F4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4AEA6F1B-4827-BE2B-A487-EA37FBCF363F</segment>
+<tableSpace>67D36AF1-7D9E-4CF8-A6C1-F96F4DF90866</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="215" id="16EFBE49-A9DA-04C7-EEAA-E94EB619703F">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:10:30 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="205" id="2B482A80-CE4E-6EBF-28B9-56717EB2A85F">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:10:30 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="210" id="5135B74F-8B62-88EB-8BA2-778EE095AE9A">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:10:30 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="195" id="810CAE02-5C30-BE25-627C-B602CC17FBAF">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:10:30 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="220" id="95E887B6-C93D-1351-129E-FDCE90FFBE2A">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:10:30 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="EB661725-18AB-5A6A-29F5-C94D8251C4F3">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:10:30 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<autoIncrementDDL>TRIGGER</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="190" id="F2E1E117-5BCE-45AA-C2F3-F7E99381DD08">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:10:30 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="200" id="F9FD15EC-F861-6434-3F82-F929CDC27583">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:10:30 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="LOGINFO_PK" id="6D55182A-074E-6111-C905-34D0953FE9F8">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:10:30 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<schemaObject>0BC3DB15-E947-5B14-BF82-1B5799A7C6F4</schemaObject>
+<segment>0D918B52-21F7-8667-841F-5B6FDA9318AD</segment>
+<tableSpace>67D36AF1-7D9E-4CF8-A6C1-F96F4DF90866</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LOGINFO_PK" id="3F0E7142-C935-A8A9-7EFA-128691E8340E">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:10:30 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<segment>0D918B52-21F7-8667-841F-5B6FDA9318AD</segment>
+<tableSpace>67D36AF1-7D9E-4CF8-A6C1-F96F4DF90866</tableSpace>
+<existingIndex>6D55182A-074E-6111-C905-34D0953FE9F8</existingIndex>
+<indexSegment>0D918B52-21F7-8667-841F-5B6FDA9318AD</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

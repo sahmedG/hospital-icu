@@ -1,0 +1,312 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5863C6F4-880A-F5EE-618E-F2767136F18A" name="CLINICAL_OUTPATIENT">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:30:03 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="624A9C2A-9A5A-8042-A0B4-151E4FA5C5DF">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:32:39 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSON" id="7E76072C-F868-103D-90C7-6ACC0B4B99D7">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:32:39 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB52EC31-7B67-20B8-3BD0-1823E8D79BCE" referredColumn="08EC5505-06EB-8AF5-237D-CBFACB88E17C"/>
+</associations>
+</Column>
+<Column name="SPECIALTY" id="30E8BFB6-83AE-1ED5-DD3B-689BFB54C6BC">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:32:39 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6022705-CB2B-5A82-82F1-F8EB208D182D" referredColumn="F6ED5EA7-97A3-00A7-8DC9-B57F9CB96789"/>
+</associations>
+</Column>
+<Column name="VISIT" id="DA4BC8A8-8C35-E59E-ABC9-C05E26C12526">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:32:39 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28356464-ED58-68E8-A1B3-FA5A90DDB1F2" referredColumn="A4C1BDCB-AAFE-1E18-9BD3-63A4B7763AFB"/>
+</associations>
+</Column>
+<Column name="ALERT" id="FA963762-A012-6771-C759-5373B549F9E9">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:32:39 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BAF2811-CA58-3955-CF58-CB227A803E10" referredColumn="5077E364-7F92-1BC3-8D09-285281DEB67A"/>
+</associations>
+</Column>
+<Column name="ALLERGIES" id="3D163F6A-FA52-1471-2AB8-DD411429F212">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:32:39 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D23650FF-A2A0-8C26-2165-A838F476C382" referredColumn="38228C34-C96F-E501-412F-D64622F8E5E7"/>
+</associations>
+</Column>
+<Column name="DIAGNOSES" id="C306A05A-F28D-6851-3A94-6402CA99342A">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:32:39 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2858A6E2-4BFF-062D-7904-5A1F1938F4FE" referredColumn="44D3152B-3809-6D95-3789-1719856CDE0D"/>
+</associations>
+</Column>
+<Column name="OUTCOME" id="49C59D30-D29E-6B8C-2674-9772D1D4D7C0">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:32:39 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE3D14F6-8241-E9A1-71A4-D06DDCC09813" referredColumn="5CE86158-959C-0C64-1CF8-701630D48E90"/>
+</associations>
+</Column>
+<Column name="RADIOLOGY" id="0294280F-6B60-7913-59A3-266E7D2770A5">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:03:08 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5CE1FF44-54E0-FDB0-8070-71B083DDACA7" referredColumn="0A3DCBA3-4A20-84D3-E8CC-CA930B05123E"/>
+</associations>
+</Column>
+<Column name="NOTES" id="455AC73D-2B75-23A3-188A-5E2132F0084B">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:32:39 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>225</dataTypeSize>
+<ownDataTypeParameters>225,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAN" id="06C5FE23-A9ED-7278-EBEB-B38841034159">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:32:39 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>225</dataTypeSize>
+<ownDataTypeParameters>225,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="F3B318C4-E145-BB40-336C-FBD43A0C5217">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:03:08 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_ON" id="AA7C4D87-D7C9-9728-35B6-01C8ECDADAB8">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:03:08 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_BY" id="D6D1AF9C-8928-3793-4B62-9963A74CA417">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:03:08 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_ON" id="819A690F-F7B0-19E3-A116-B7ADCF1856BE">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:03:08 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LABORATORY" id="0AED060D-D23F-2F0D-2359-0E481EEE1D22">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:08:59 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F09F618C-A9AA-1C29-CF81-98FA0DFD8C92" referredColumn="10ACD8F2-8461-DB6B-6793-9C8610D1F86E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F7B7E65-9A91-3AFD-8CEA-D5DF20863043" name="CLINICAL OUTPATIENT_PK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:32:39 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="624A9C2A-9A5A-8042-A0B4-151E4FA5C5DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88C9E2AF-1973-B0D1-A157-C4CC18F0B3F5" name="CLINICAL OUTPATIENT_RAD_PROCEDURES_FK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:08:15 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0294280F-6B60-7913-59A3-266E7D2770A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C39F5D6-1678-F06F-AF2A-CC91C2FC3D79" name="CLINICAL OUTPATIENT_Alert_NAMES_FK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:09:50 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA963762-A012-6771-C759-5373B549F9E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B914AE63-CF74-F0A2-72BE-E2C49CA33234" name="CLINICAL OUTPATIENT_Allergies_NAMES_FK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:09:58 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D163F6A-FA52-1471-2AB8-DD411429F212"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B512D77-4485-0976-9A47-94CB71AF6ADA" name="CLINICAL OUTPATIENT_DIAGNOSES_NAMES_FK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:10:11 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C306A05A-F28D-6851-3A94-6402CA99342A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0206C64F-ECD4-855C-D3A7-CDBD5BDA8358" name="CLINICAL OUTPATIENT_LAB_TESTS_FK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:11:53 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AED060D-D23F-2F0D-2359-0E481EEE1D22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="986B0EEB-FD4C-A5D4-1186-312BE51489E7" name="CLINICAL OUTPATIENT_SPECIALTY_FK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:13:15 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30E8BFB6-83AE-1ED5-DD3B-689BFB54C6BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A2BC7A1-12AF-3253-C171-4EC6777974DB" name="CLINICAL OUTPATIENT_APPOINTMENT2_FK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:25:49 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA4BC8A8-8C35-E59E-ABC9-C05E26C12526"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F5F8550-A2B2-CA3D-8635-B32D21495EDE" name="CLINICAL OUTPATIENT_PERSON_FK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:26:34 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E76072C-F868-103D-90C7-6ACC0B4B99D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7296E8B9-F8B2-69BD-6D5E-8E3F79C5486B" name="CLINICAL OUTPATIENT_OUTCOME_FK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:27:36 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49C59D30-D29E-6B8C-2674-9772D1D4D7C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

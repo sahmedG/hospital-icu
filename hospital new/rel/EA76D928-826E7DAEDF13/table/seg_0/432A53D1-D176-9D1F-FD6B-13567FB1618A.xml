@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="432A53D1-D176-9D1F-FD6B-13567FB1618A" schemaObject="1EF77845-325A-999B-1249-4EAE84CE6083" name="RANK">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>SAMIRAHMED</sourceObjSchema>
+<sourceObjName>RANK</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:36 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RANK_ID" id="B88603F1-6A43-B94E-9BD2-93ADE76C3D13">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>RANK</sourceObjSchema>
+<sourceObjName>RANK_ID</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:37 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>RANK_RANK_ID_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>RANK_RANK_ID_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="RANK_NAME" id="6CED183E-1B08-8756-D542-713B40E8E5DB">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>RANK</sourceObjSchema>
+<sourceObjName>RANK_NAME</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:37 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="2B4DED2A-3CA9-66F8-A045-A75103EA3060">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>RANK</sourceObjSchema>
+<sourceObjName>CREATED_BY</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:37 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_ON" id="52187286-0F32-5126-B8BF-09853C1D0745">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>RANK</sourceObjSchema>
+<sourceObjName>CREATED_ON</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:37 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_BY" id="B7C6FEAA-AB7E-4312-03A5-47A20AF398BB">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>RANK</sourceObjSchema>
+<sourceObjName>UPDATED_BY</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:37 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_ON" id="BBFDD4DF-D591-DBFA-22F4-CE95357666BD">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>RANK</sourceObjSchema>
+<sourceObjName>UPDATED_ON</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:37 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B9ADD83-8E4C-353F-CC10-8C58DF385516" name="RANK_PK">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>SAMIRAHMED</sourceObjSchema>
+<sourceObjName>RANK_PK</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:39 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B88603F1-6A43-B94E-9BD2-93ADE76C3D13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E629DF1E-B34D-A23B-4926-EA6A533DBFA7" schemaObject="1EF77845-325A-999B-1249-4EAE84CE6083" name="RANK_PK">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>SAMIRAHMED</sourceObjSchema>
+<sourceObjName>RANK_PK</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:38 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B88603F1-6A43-B94E-9BD2-93ADE76C3D13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

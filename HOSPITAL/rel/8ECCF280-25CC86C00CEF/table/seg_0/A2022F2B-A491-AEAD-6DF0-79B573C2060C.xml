@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2022F2B-A491-AEAD-6DF0-79B573C2060C" name="PROVIDER">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:39:23 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERSON" id="7C2E2118-A209-5486-4665-F4A484A2FB48">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:40:29 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F3DB8479-DD87-570B-D3F3-5121DBC08009</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57FBE867-6F7D-5457-B51D-373D21B50533" referredColumn="10D4CD1B-451F-09D4-2BC4-A808CA5B45C0"/>
+</associations>
+</Column>
+<Column name="PREFERRED_NAME" id="D04E4AC7-C354-6793-E915-4FD298415DF1">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:40:29 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D08B1DD9-957E-7A74-3684-EEB1EB23523F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPECIALTY" id="208D96C0-5EE1-AD79-6DC4-FA84EE1D0EDD">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:40:29 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F3DB8479-DD87-570B-D3F3-5121DBC08009</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD4D8BB7-7193-9EC0-8053-A625C3ACD213" referredColumn="F1D4CCFA-2E62-69EE-8D84-106D30EF3BE9"/>
+</associations>
+</Column>
+<Column name="RANK" id="FA133D9C-30DC-2DFA-ADE3-050ABEE040C8">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:40:29 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F3DB8479-DD87-570B-D3F3-5121DBC08009</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0080B23-E00E-A8AF-D08C-C4DF8A9E84D6" referredColumn="CA910AC8-C2B0-9303-019A-EFD1D721F36F"/>
+</associations>
+</Column>
+<Column name="CREATED_BY" id="91F37F2D-64BF-1026-A4E7-D083B98BF30D">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:40:29 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_ON" id="1F95C634-17BF-C50F-940E-63BD3A70E22F">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:40:29 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_BY" id="FD8C4046-D860-0C25-36B3-5D1019884FD5">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:40:29 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_ON" id="BC9EB144-770D-C0FB-7859-A986B3B6A21E">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:40:29 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5959A9AB-8BB9-B03B-5217-F35533D5FCCD" name="PROVIDER_PK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:40:29 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C2E2118-A209-5486-4665-F4A484A2FB48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="258928DA-AD3C-8326-B106-40177EE93F71" name="PROVIDER_PERSON_FK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:40:39 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C2E2118-A209-5486-4665-F4A484A2FB48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30CFFB99-D55C-28CE-8F7D-C5C799774029" name="PROVIDER_SPECIALTY_FK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:43:17 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="208D96C0-5EE1-AD79-6DC4-FA84EE1D0EDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31151B96-7796-65FF-5660-F361E3DD0A5E" name="PROVIDER_RANK_FK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:43:27 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA133D9C-30DC-2DFA-ADE3-050ABEE040C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

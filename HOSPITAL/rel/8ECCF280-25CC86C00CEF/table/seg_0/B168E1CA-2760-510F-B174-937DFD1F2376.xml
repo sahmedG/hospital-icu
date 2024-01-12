@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B168E1CA-2760-510F-B174-937DFD1F2376" name="Insurance_Policy">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 20:49:19 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="POLICY_ID" id="E08A65E3-405F-B759-F1E7-A70C97E38BAF">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 20:50:20 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F3DB8479-DD87-570B-D3F3-5121DBC08009</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POLICY_NAME" id="04BC9B98-329F-748A-694E-61E93B7A939F">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 20:50:20 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EDC5B02F-880C-60C6-B850-6C092513233E" name="Insurance_Policy_PK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 20:50:32 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E08A65E3-405F-B759-F1E7-A70C97E38BAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

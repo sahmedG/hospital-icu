@@ -1,0 +1,246 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="log" directorySegmentName="seg_0" id="C4166819-8FF7-09A4-3509-2B7389D38978">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:10:35 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="130" id="00C3EC11-E487-0FCE-2E05-56BC1417BD75">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="180" id="06902302-8EF0-364B-D937-68DF3C2AD9A8">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="110" id="0AC03E04-B297-DF36-6521-5FB568BEE517">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="135" id="0B486A4B-BCE2-CBDA-A8F5-3C968660CFC2">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="40" id="0B85F3CC-6E36-8E3F-0C6B-DA4151F85F29">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="115" id="0BA4F5DE-1D57-902D-0BA6-8F70A5CB1841">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="175" id="10D9B59E-7C97-56E8-D173-EB5522E760A3">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="195" id="1188630B-2026-5D23-DA28-1A31E3B08FFC">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="25" id="1B47C12F-212F-98C3-197F-655D28682301">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="210" id="1B6452F0-EB2E-926F-AFC3-569534EF3933">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="125" id="2C783634-747D-6145-7D7D-A601811EE074">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="150" id="2C89A541-FBD0-B79F-DAFA-4AA9E5107669">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="165" id="2E72BA99-4242-64A8-C86B-3A6A47C3FBEC">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="190" id="3402AFEC-92C8-4CE8-D723-9FA8214E4CE1">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="170" id="5C11C1BD-4AF6-64B1-4BFB-E7A07EF7F4B9">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="35" id="627FF9E7-9F2F-C571-5050-E14FB122B980">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="45" id="77090A61-79F2-82C1-C162-3D00F8F2AA5D">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="155" id="788F3C4A-A5C3-9558-1C76-34A872C0824E">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="120" id="7A3DB99E-78E8-E413-D6AD-76709BD99531">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="20" id="7F5B5034-986D-B2CE-2AA8-F7C2063CDB2E">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="834A5561-F403-AD8C-DD73-9D9B374532CC">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="10" id="84E14BC9-BBF5-C008-844B-8486B9A42A1A">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="70" id="93AC13D7-F6CE-8F05-2A67-47E2BE549211">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="60" id="9F4CFE7A-3204-492F-2062-7BB8B734951A">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="80" id="A059F641-69A9-BAF0-4CFA-70BEB1FC0883">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="75" id="A2641E87-F628-9D60-B7B7-6ABF48580335">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="85" id="A72A0C50-B704-F3FE-2095-267502A28C09">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="200" id="B93922D0-EB61-8007-2628-D057E1051A7C">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="140" id="BE1944A3-654D-ECAA-BE50-1C2E09A1F86E">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="30" id="BF0B2288-67F7-7504-D2F0-1DB37F9D9A11">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="65" id="C33BFA3E-7286-0B4F-ED06-0291599965F3">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="105" id="C45A17B9-DAED-94BC-CC45-D5976575C77C">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="215" id="C4A967C5-9853-5A38-36FC-45BB80B56A6B">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="100" id="C50EF11E-7DA6-FAD4-7AF1-950439CD1116">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="185" id="C5880E11-53D7-32F9-AE6B-EF3D3B89FF4C">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="145" id="C637D0C8-788D-304B-C98C-F85F695219F0">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="15" id="C77A2E68-79BF-204F-A086-274FEA629F86">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="50" id="CA2A5285-C448-491E-638F-F0A4666E3723">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="90" id="CC12DD50-29A8-DC74-C2CA-ACCAA9098DCF">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="220" id="D2C2EE13-64FF-7231-6ECD-A13387E912F8">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="55" id="DAC9A075-B3CC-D41B-9E1B-3B51C9B85000">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="160" id="ED5599BB-C9FB-3D0F-3E1F-08C17135102E">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="0" id="F382D551-153C-89C3-3DAD-E77BA08DAA6B">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="95" id="F4CD254A-BC93-5EE5-B49E-A2A39FD51AC1">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="205" id="FA37781A-F400-E02C-BA10-C174EA8BBF53">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="log_PK" id="106D5C91-1701-2313-2259-F06FEDE7C257">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:12:41 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA9170E6-082A-0A34-AC2C-5A0B982B5862" name="PERSON">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:29:56 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERSON_ID" id="10D4CD1B-451F-09D4-2BC4-A808CA5B45C0">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:30:53 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F3DB8479-DD87-570B-D3F3-5121DBC08009</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSON_NAME" id="07FAE836-DFEC-3B29-27B4-8178BA0119F2">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:31:04 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D08B1DD9-957E-7A74-3684-EEB1EB23523F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOB" id="86ADDFAA-8368-BE27-17DC-D53F75EB3FF4">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:31:23 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_BY" id="2187B9A4-96A3-4B65-3362-76C1C3583524">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:31:50 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_ON" id="9F4C9281-7ABD-A09E-2E25-D29000AA4697">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:31:50 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_BY" id="C0B81112-19BB-602E-525E-49FC0E76187A">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:31:50 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_ON" id="B6541B91-342B-0005-83A0-DF96556EF4AB">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:31:50 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone" id="89E70307-9828-E8A4-FD04-196E7738797D">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 20:19:45 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F3DB8479-DD87-570B-D3F3-5121DBC08009</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Road No" id="3273F3BE-94D7-92AE-F610-60FBA2F03BA8">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 20:19:45 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F3DB8479-DD87-570B-D3F3-5121DBC08009</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Building No" id="1D5A5441-7953-D581-BAA7-DC294CCD4549">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 20:19:45 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F3DB8479-DD87-570B-D3F3-5121DBC08009</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Block No" id="BDF8A70F-B321-D19D-2821-D463EEA7EC3B">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 20:19:45 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D08B1DD9-957E-7A74-3684-EEB1EB23523F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Area" id="D04E86A4-5E12-F16F-C69C-3B02435C699D">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 20:19:45 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D08B1DD9-957E-7A74-3684-EEB1EB23523F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nationalty" id="B6967D5A-1B73-6143-4FD8-E6844E092792">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 20:19:45 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D08B1DD9-957E-7A74-3684-EEB1EB23523F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sex" id="9F0FF100-BF82-E0D0-9DE7-4C3276AB6155">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 21:35:55 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5383DEDB-2771-49B6-9422-F90D3FCCE31E" name="PERSON_PK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:33:14 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10D4CD1B-451F-09D4-2BC4-A808CA5B45C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

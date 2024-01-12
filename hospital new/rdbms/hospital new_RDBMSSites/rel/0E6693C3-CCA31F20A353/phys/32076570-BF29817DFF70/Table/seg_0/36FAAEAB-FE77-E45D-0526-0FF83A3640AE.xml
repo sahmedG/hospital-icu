@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="RADIOLOGY_REQUEST" directorySegmentName="seg_0" id="36FAAEAB-FE77-E45D-0526-0FF83A3640AE">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 09:47:11 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="VISIT" id="6D650C97-DFAC-7743-8A79-31425DDCACE4">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 09:50:27 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROCEDURE" id="87003D11-BCA1-4ED0-B1CC-93AF68D7583E">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 09:50:27 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMPLAINT" id="A1F13530-92C4-9667-97DC-317497E207A3">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 09:50:27 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REQUESTED_ON" id="AC466DB6-FC83-5368-D4E4-6D2AC1DF9CB0">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 09:50:27 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PERSON" id="B3960BFE-3109-8C66-5C75-23F63F2134E5">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 09:50:27 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOTES" id="B83B9E64-BFE8-EA5F-C4BE-1EBAF13EC974">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 09:50:27 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="URGENCY" id="C0333B88-B207-23FE-A0DC-E552DCF6B910">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 09:50:27 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="C8995AB9-EFA2-E7BC-D820-7967B9E5C8F0">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 09:50:27 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SPECIALTY" id="CCFB0492-0E43-F172-8F46-9E3FF78CF7A9">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 09:50:27 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIAGNOSES" id="D54BC629-8C86-0408-C2E2-1A57769A2784">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 09:50:54 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REQUESTED_BY" id="F5C72FCD-5CFA-2EF7-9758-AD469C28A00D">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 09:50:27 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RAD_PROCEDURES_CPT" id="FD5E821B-075B-AAF4-5CD0-E7CB12FD0E6B">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:01:09 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RADIOLOGY_REQUEST_CLINICAL OUTPATIENT_FK" id="5D2FEC68-1359-93B4-0275-DDB375B71480">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:21:40 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RADIOLOGY_REQUEST_SPECIALTY_FK" id="5DF442BE-56F0-0E3C-AE5E-B7E082459B84">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:20:26 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RADIOLOGY_REQUEST_RAD_PROCEDURES_FK" id="7DF26042-9A80-999D-05E2-05B0363AD0D7">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 10:23:24 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RADIOLOGY_REQUEST_DIAGNOSES_NAMES_FK" id="C8E737DB-5C3E-AF51-5724-A863990CC66F">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 11:10:27 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RADIOLOGY_PK" id="6B7A7BD4-8098-FF78-E145-54D3773DEA91">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 09:50:27 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

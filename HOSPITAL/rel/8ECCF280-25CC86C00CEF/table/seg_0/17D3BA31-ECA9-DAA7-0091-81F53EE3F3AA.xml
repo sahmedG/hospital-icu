@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17D3BA31-ECA9-DAA7-0091-81F53EE3F3AA" name="SPECIALTY">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:40:51 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SPECIALTY_ID" id="F1D4CCFA-2E62-69EE-8D84-106D30EF3BE9">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:41:43 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F3DB8479-DD87-570B-D3F3-5121DBC08009</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPECIALTY_NAME" id="6402881F-E35A-56CE-5213-B08711D279E9">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:41:43 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D08B1DD9-957E-7A74-3684-EEB1EB23523F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARENT_SPECIALTY" id="C46460A5-E4B5-BDBB-442B-2E0C47B8A9B2">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:41:43 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F3DB8479-DD87-570B-D3F3-5121DBC08009</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0AA9954-EAF7-CDF2-2CBA-DD45913B7A12" referredColumn="F1D4CCFA-2E62-69EE-8D84-106D30EF3BE9"/>
+</associations>
+</Column>
+<Column name="CREATED_BY" id="7B9D0AD9-6B74-3CC1-37B7-F245EE4950BA">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:41:43 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_ON" id="C2F4B6C2-CD9A-34F2-860D-79110554939C">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:41:43 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_BY" id="CF194B14-556C-A974-98CA-6132BF34CDCF">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:41:43 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_ON" id="0CE13C9B-F075-91A9-17B9-A511ADD7A340">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:41:43 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE42D439-82F5-B63A-B06D-147F55CA9C8E" name="SPECIALTY_PK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:42:59 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1D4CCFA-2E62-69EE-8D84-106D30EF3BE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="247AF54B-EF5A-6369-0F75-42F9E69F8078" name="SPECIALTY_SPECIALTY_FK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:43:54 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C46460A5-E4B5-BDBB-442B-2E0C47B8A9B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

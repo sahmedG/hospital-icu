@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="hospital new_RDBMSSites" id="3C0B41A1-7CC9-97A0-E35E-824033136A38" version="3.5">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:13:31 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3C0B41A1-7CC9-97A0-E35E-824033136A38</designId>
+</OSDM_Design>

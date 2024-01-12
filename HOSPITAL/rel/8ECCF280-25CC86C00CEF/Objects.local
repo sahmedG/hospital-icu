@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="B168E1CA-2760-510F-B174-937DFD1F2376" name="Insurance_Policy" seqName="seg_0"/>
+   <object objectType="Table" objectID="1E5F38FF-315B-9B6F-B520-D595F1117133" name="PATIENT2" seqName="seg_0"/>
+   <object objectType="Table" objectID="FA9170E6-082A-0A34-AC2C-5A0B982B5862" name="PERSON" seqName="seg_0"/>
+   <object objectType="Table" objectID="A2022F2B-A491-AEAD-6DF0-79B573C2060C" name="PROVIDER" seqName="seg_0"/>
+   <object objectType="Table" objectID="DAE1D1E9-77A4-F536-DE2F-33AD870E3E56" name="RANK" seqName="seg_0"/>
+   <object objectType="Table" objectID="17D3BA31-ECA9-DAA7-0091-81F53EE3F3AA" name="SPECIALTY" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="CFBBFB70-7ADC-70DB-95E2-AB853A642055" name="PATIENT2_Insurance_Policy_FK" seqName="seg_0" containerID="1E5F38FF-315B-9B6F-B520-D595F1117133" refContainerID="B168E1CA-2760-510F-B174-937DFD1F2376"/>
+   <object objectType="FKIndexAssociation" objectID="77376D3E-5B21-4E3A-8D28-21DE0D9F88EA" name="PATIENT2_PERSON_FK" seqName="seg_0" containerID="1E5F38FF-315B-9B6F-B520-D595F1117133" refContainerID="FA9170E6-082A-0A34-AC2C-5A0B982B5862"/>
+   <object objectType="FKIndexAssociation" objectID="57FBE867-6F7D-5457-B51D-373D21B50533" name="PROVIDER_PERSON_FK" seqName="seg_0" containerID="A2022F2B-A491-AEAD-6DF0-79B573C2060C" refContainerID="FA9170E6-082A-0A34-AC2C-5A0B982B5862"/>
+   <object objectType="FKIndexAssociation" objectID="C0080B23-E00E-A8AF-D08C-C4DF8A9E84D6" name="PROVIDER_RANK_FK" seqName="seg_0" containerID="A2022F2B-A491-AEAD-6DF0-79B573C2060C" refContainerID="DAE1D1E9-77A4-F536-DE2F-33AD870E3E56"/>
+   <object objectType="FKIndexAssociation" objectID="AD4D8BB7-7193-9EC0-8053-A625C3ACD213" name="PROVIDER_SPECIALTY_FK" seqName="seg_0" containerID="A2022F2B-A491-AEAD-6DF0-79B573C2060C" refContainerID="17D3BA31-ECA9-DAA7-0091-81F53EE3F3AA"/>
+   <object objectType="FKIndexAssociation" objectID="D0AA9954-EAF7-CDF2-2CBA-DD45913B7A12" name="SPECIALTY_SPECIALTY_FK" seqName="seg_0" containerID="17D3BA31-ECA9-DAA7-0091-81F53EE3F3AA" refContainerID="17D3BA31-ECA9-DAA7-0091-81F53EE3F3AA"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

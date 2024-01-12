@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E5F38FF-315B-9B6F-B520-D595F1117133" name="PATIENT2">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:35:08 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERSON" id="9D416B6F-4FE0-4589-0051-59804FDEBDAB">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:36:43 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F3DB8479-DD87-570B-D3F3-5121DBC08009</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77376D3E-5B21-4E3A-8D28-21DE0D9F88EA" referredColumn="10D4CD1B-451F-09D4-2BC4-A808CA5B45C0"/>
+</associations>
+</Column>
+<Column name="INSURANCE_POLICY" id="95F44BEB-3C19-5A21-0853-97BFDD0849E0">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:36:43 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>30</dataTypeScale>
+<domain>F3DB8479-DD87-570B-D3F3-5121DBC08009</domain>
+<ownDataTypeParameters>,,30</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CFBBFB70-7ADC-70DB-95E2-AB853A642055" referredColumn="E08A65E3-405F-B759-F1E7-A70C97E38BAF"/>
+</associations>
+</Column>
+<Column name="CREATED_BY" id="47003AA7-84DF-4768-884D-BE02F44C9FD1">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:38:14 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_ON" id="60CD4AE5-AA32-129F-EE21-DCF42634D0F4">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:38:14 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_BY" id="982CDA50-C543-3DC6-F4C5-FFA476CBD8F2">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:38:14 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_ON" id="65C8F7F2-8D2F-F930-2D15-D122628266DB">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:38:14 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="592F5ADC-9D4F-C302-1A2F-E4255750E944" name="PATIENT2_PK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:36:43 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D416B6F-4FE0-4589-0051-59804FDEBDAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81102BCD-3485-7F2E-A4C4-D5FF41ABC05B" name="PATIENT2_PERSON_FK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 07:37:10 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D416B6F-4FE0-4589-0051-59804FDEBDAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B168197-30ED-E2D2-F8B6-ED3B92816484" name="PATIENT2_Insurance_Policy_FK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-15 20:53:12 UTC</createdTime>
+<ownerDesignName>HOSPITAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95F44BEB-3C19-5A21-0853-97BFDD0849E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

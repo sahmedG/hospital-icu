@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1EEAA780-342F-76A4-5CE7-16E49A19A139" name="RAD_PROCEDURES">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 09:52:49 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CPT" id="0A3DCBA3-4A20-84D3-E8CC-CA930B05123E">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 09:53:29 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROCEDURE_NAME" id="AE64B7F9-CF25-0CC9-1D66-56B4DEB61958">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 09:53:29 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>225</dataTypeSize>
+<ownDataTypeParameters>225,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB51ED29-509F-6C0C-696E-9990533F7708" name="RAD_PROCEDURES_PK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 09:53:29 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A3DCBA3-4A20-84D3-E8CC-CA930B05123E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

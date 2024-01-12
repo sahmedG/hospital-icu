@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="TSpace" objectID="BAA1F632-B438-AAFA-89FE-25CB3454B4F6" name="USERS" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="User" objectID="EABD0A83-F0E0-41FF-DCC0-8FD126E0615A" name="SAMIRAHMED" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="15898FB1-E20F-70E1-8EED-3718F1E85DCE" name="OBSERVATION2" seqName="seg_0"/>
+   <object objectType="Table" objectID="1EEAA780-342F-76A4-5CE7-16E49A19A139" name="RAD_PROCEDURES" seqName="seg_0"/>
+   <object objectType="Table" objectID="26EE5D3D-6546-C427-DB29-11EC6A313131" name="APPOINTMENT2" seqName="seg_0"/>
+   <object objectType="Table" objectID="2EC305F8-0F4C-F9CC-A8C1-78245EAEE01E" name="Allergies_NAMES" seqName="seg_0"/>
+   <object objectType="Table" objectID="36FAAEAB-FE77-E45D-0526-0FF83A3640AE" name="RADIOLOGY_REQUEST" seqName="seg_0"/>
+   <object objectType="Table" objectID="3A054766-2F2C-76C1-8C15-9DCA95B7164C" name="DIAGNOSES_NAMES" seqName="seg_0"/>
+   <object objectType="Table" objectID="4638DF69-5F45-0F21-54C7-582C59958224" name="OUTCOME" seqName="seg_0"/>
+   <object objectType="Table" objectID="491E2A10-F322-176D-5211-875AA9410C0F" name="LAB_REQUEST" seqName="seg_0"/>
+   <object objectType="Table" objectID="4C353711-DB0A-872A-057E-4CA0664F01CC" name="PATIENT2" seqName="seg_0"/>
+   <object objectType="Table" objectID="5863C6F4-880A-F5EE-618E-F2767136F18A" name="CLINICAL_OUTPATIENT" seqName="seg_0"/>
+   <object objectType="Table" objectID="69F974D4-E9D6-E008-E366-947EFB639166" name="PROVIDER" seqName="seg_0"/>
+   <object objectType="Table" objectID="771203A5-978E-BC94-4E3B-3443790A9F08" name="Alert_NAMES" seqName="seg_0"/>
+   <object objectType="Table" objectID="7799B738-13F1-C623-FE28-51D7BCA94332" name="RANK" seqName="seg_0"/>
+   <object objectType="Table" objectID="86867BB0-F0BA-0402-8512-CC583998C0D0" name="LAB_TESTS" seqName="seg_0"/>
+   <object objectType="Table" objectID="A370A482-C401-2A38-95DB-CF8B781E5A6F" name="PERSON" seqName="seg_0"/>
+   <object objectType="Table" objectID="DA1B2A4F-75D9-6C2C-A178-A21361141527" name="Admission_REQUEST" seqName="seg_0"/>
+   <object objectType="Table" objectID="F60A395A-F093-C7E1-7A24-C5EC0DFA76D4" name="SPECIALTY" seqName="seg_0"/>
+   <object objectType="Segment" objectID="E32E8BD7-82B8-76AD-BD16-A85088376636" name="Storage1" seqName="seg_0"/>
+   <object objectType="Segment" objectID="E6594A87-927C-B424-6C86-60D26E0FD179" name="Storage8" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="5D422935-5572-58F1-ABE1-3F33D79F297E" name="APPOINTMENT2_CREATER" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="428F0804-EFAD-C20A-4333-7CA395E8D008" name="OBSERVATION2_T1" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="0B7ECC52-853C-5E34-0FC1-127D3587ECFC" name="PATIENT2_T1" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="BA1CEEC9-C6C4-BB8D-0404-8072A3BAF006" name="PERSON_T1" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="47A17D73-A6FA-6973-B60E-CE928E407AA5" name="PROVIDER_T1" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B15C7BBA-80AA-9401-8A95-783D5CE6C496" mainViewID="C77A8695-902D-D617-36C1-F47F3B196E1C">
+<createdBy>im</createdBy>
+<createdTime>2015-10-21 06:13:31 UTC</createdTime>
+<ownerDesignName>hospital new_RDBMSSites</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

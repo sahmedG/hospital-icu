@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="1EF77845-325A-999B-1249-4EAE84CE6083" name="SAMIRAHMED" seqName="seg_0"/>
+   <object objectType="Table" objectID="3B90E2DF-1E19-87C6-2143-688E7B2C7DEB" name="APPOINTMENT2" seqName="seg_0"/>
+   <object objectType="Table" objectID="763DEB1F-6DE9-31DE-1981-5F7E84F00F83" name="PATIENT2" seqName="seg_0"/>
+   <object objectType="Table" objectID="165AFD3E-3534-A6C7-9B97-E768C4F32337" name="PERSON" seqName="seg_0"/>
+   <object objectType="Table" objectID="ABE552B2-FBED-701C-B5D5-77D0F4579E0B" name="PROVIDER" seqName="seg_0"/>
+   <object objectType="Table" objectID="432A53D1-D176-9D1F-FD6B-13567FB1618A" name="RANK" seqName="seg_0"/>
+   <object objectType="Table" objectID="2447C6F7-3C1F-84B6-BB10-E9A817BCFF75" name="SPECIALTY" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="40B8E530-77AB-6634-0C5D-6A024EF3DF2B" name="APPOINTMENT_PATIENT2_FK" seqName="seg_0" containerID="3B90E2DF-1E19-87C6-2143-688E7B2C7DEB" refContainerID="763DEB1F-6DE9-31DE-1981-5F7E84F00F83"/>
+   <object objectType="FKIndexAssociation" objectID="D465D99B-6128-F46F-C948-8153F2C8A0CB" name="APPOINTMENT_SPECIALTY_FK" seqName="seg_0" containerID="3B90E2DF-1E19-87C6-2143-688E7B2C7DEB" refContainerID="2447C6F7-3C1F-84B6-BB10-E9A817BCFF75"/>
+   <object objectType="FKIndexAssociation" objectID="0820829A-CB2A-F401-F290-DB64A198EA62" name="PATIENT2_PERSON_FK" seqName="seg_0" containerID="763DEB1F-6DE9-31DE-1981-5F7E84F00F83" refContainerID="165AFD3E-3534-A6C7-9B97-E768C4F32337"/>
+   <object objectType="FKIndexAssociation" objectID="CCED257B-B389-B863-5E43-86428593E86F" name="PROVIDER_PERSON_FK" seqName="seg_0" containerID="ABE552B2-FBED-701C-B5D5-77D0F4579E0B" refContainerID="165AFD3E-3534-A6C7-9B97-E768C4F32337"/>
+   <object objectType="FKIndexAssociation" objectID="C455A24D-8260-4DBA-CE4A-632CC0BB4F59" name="PROVIDER_RANK_FK" seqName="seg_0" containerID="ABE552B2-FBED-701C-B5D5-77D0F4579E0B" refContainerID="432A53D1-D176-9D1F-FD6B-13567FB1618A"/>
+   <object objectType="FKIndexAssociation" objectID="81684BE1-87EA-EEEC-A1BE-27235EE2E87E" name="PROVIDER_SPECIALTY_FK" seqName="seg_0" containerID="ABE552B2-FBED-701C-B5D5-77D0F4579E0B" refContainerID="2447C6F7-3C1F-84B6-BB10-E9A817BCFF75"/>
+   <object objectType="FKIndexAssociation" objectID="C1F98BB7-3C38-B7F3-C67A-77CB263EAAF8" name="SPECIALTY_SPECIALTY_FK" seqName="seg_0" containerID="2447C6F7-3C1F-84B6-BB10-E9A817BCFF75" refContainerID="2447C6F7-3C1F-84B6-BB10-E9A817BCFF75"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

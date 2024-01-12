@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="7v2" directorySegmentName="seg_0" id="70E558FC-CFE1-4503-659F-563EAF2C6BF3">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 12:40:10 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PERSON" id="21D8145B-B1E2-FF19-BB03-86EE6ED41758">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 12:40:10 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="1000" id="3E3311DB-4A2D-11C6-68F0-0D668132A883">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 12:40:10 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="1030" id="4844A94D-D2AE-59A4-C37E-7B51247FC8A8">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 12:40:10 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="5CCA0E7A-3857-F4B4-648C-7226802E4EC1">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 12:40:10 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="1045" id="7407032A-BE74-E354-7EBE-1D227EF57A50">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 12:40:10 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_ON" id="BA804397-AD18-EC6F-8D1D-0D4711E6F860">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 12:40:10 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="1015" id="BD854D65-0B99-4325-4963-E8DEFCA11319">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 12:40:10 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="7v2_PERSON_FK" id="7726AE8A-793E-E74F-FD56-C20B0132F424">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 12:42:56 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="7v2_PK" id="57D9D57E-E1E1-059E-9F9C-DC0E1DDC2BE3">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 12:40:10 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

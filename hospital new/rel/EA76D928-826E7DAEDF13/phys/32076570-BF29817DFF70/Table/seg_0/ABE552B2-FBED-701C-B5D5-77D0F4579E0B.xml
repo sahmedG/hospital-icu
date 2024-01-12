@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PROVIDER" directorySegmentName="seg_0" id="ABE552B2-FBED-701C-B5D5-77D0F4579E0B">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:36 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<schemaObject>1EF77845-325A-999B-1249-4EAE84CE6083</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8363FDD9-778E-8EC6-9118-835C163DF589</segment>
+<tableSpace>2777BE3F-7B63-6578-92B6-F199FF6B6A59</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="RANK" id="0F41E78B-1CBF-0799-4326-248A217FD454">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:37 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_BY" id="14A68E53-BED9-26E3-3ACB-6CBFA31B34F3">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:37 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_ON" id="7A6749E2-2067-10F2-86C7-F0D8A1B9C791">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:37 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATED_ON" id="AF8A1F9D-EDD7-1BFE-6EE1-3E842C5E0795">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:37 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SPECIALTY" id="C323B0C3-9D7E-1859-917B-93F5434401EE">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:37 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PERSON" id="C39BC30E-DF99-2673-214F-2528ACA97B34">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:37 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATED_BY" id="DE8340C5-3553-F32B-7621-C13915ED12F7">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:37 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PREFERRED_NAME" id="F8E69E97-202A-4A28-966B-39543027B942">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:37 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PROVIDER_PK" id="1E6537E7-8090-A64C-B0E6-ECED9870F7C8">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:38 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<schemaObject>1EF77845-325A-999B-1249-4EAE84CE6083</schemaObject>
+<segment>268821B0-4774-509F-6B2C-BCFA79E5C7CB</segment>
+<tableSpace>2777BE3F-7B63-6578-92B6-F199FF6B6A59</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PROVIDER_SPECIALTY_FK" id="2A466AEF-2CC7-EEE0-3827-F7F0272E3B9D">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:41 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PROVIDER_PERSON_FK" id="320C0C50-9C84-082D-CFC9-EDB7C58B9AB2">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:41 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PROVIDER_RANK_FK" id="3B977153-D27B-FCD5-129D-76907E09507E">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:41 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PROVIDER_PK" id="9F68F367-DD36-B398-2638-3962C1299C88">
+<createdBy>im</createdBy>
+<createdTime>2015-10-16 18:18:39 UTC</createdTime>
+<ownerDesignName>hospital new</ownerDesignName>
+<segment>268821B0-4774-509F-6B2C-BCFA79E5C7CB</segment>
+<tableSpace>2777BE3F-7B63-6578-92B6-F199FF6B6A59</tableSpace>
+<existingIndex>1E6537E7-8090-A64C-B0E6-ECED9870F7C8</existingIndex>
+<indexSegment>268821B0-4774-509F-6B2C-BCFA79E5C7CB</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

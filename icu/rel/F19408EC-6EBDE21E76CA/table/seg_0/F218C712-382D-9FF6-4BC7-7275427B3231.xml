@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F218C712-382D-9FF6-4BC7-7275427B3231" schemaObject="0BC3DB15-E947-5B14-BF82-1B5799A7C6F4" name="LOGINFO">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>SAMIRAHMED</sourceObjSchema>
+<sourceObjName>LOGINFO</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:10:29 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="EB661725-18AB-5A6A-29F5-C94D8251C4F3">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>LOGINFO</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:10:30 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>LOGINFO_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>BI_LOGINFO</autoIncrementTriggerName>
+</Column>
+<Column name="220" id="95E887B6-C93D-1351-129E-FDCE90FFBE2A">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>LOGINFO</sourceObjSchema>
+<sourceObjName>220</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:10:30 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="215" id="16EFBE49-A9DA-04C7-EEAA-E94EB619703F">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>LOGINFO</sourceObjSchema>
+<sourceObjName>215</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:10:30 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="210" id="5135B74F-8B62-88EB-8BA2-778EE095AE9A">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>LOGINFO</sourceObjSchema>
+<sourceObjName>210</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:10:30 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="205" id="2B482A80-CE4E-6EBF-28B9-56717EB2A85F">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>LOGINFO</sourceObjSchema>
+<sourceObjName>205</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:10:30 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="200" id="F9FD15EC-F861-6434-3F82-F929CDC27583">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>LOGINFO</sourceObjSchema>
+<sourceObjName>200</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:10:30 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="195" id="810CAE02-5C30-BE25-627C-B602CC17FBAF">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>LOGINFO</sourceObjSchema>
+<sourceObjName>195</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:10:30 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="190" id="F2E1E117-5BCE-45AA-C2F3-F7E99381DD08">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>LOGINFO</sourceObjSchema>
+<sourceObjName>190</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:10:30 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F0E7142-C935-A8A9-7EFA-128691E8340E" name="LOGINFO_PK">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>SAMIRAHMED</sourceObjSchema>
+<sourceObjName>LOGINFO_PK</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:10:30 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB661725-18AB-5A6A-29F5-C94D8251C4F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D55182A-074E-6111-C905-34D0953FE9F8" schemaObject="0BC3DB15-E947-5B14-BF82-1B5799A7C6F4" name="LOGINFO_PK">
+<sourceConnName>Oracle11gR2hospital</sourceConnName>
+<sourceObjSchema>SAMIRAHMED</sourceObjSchema>
+<sourceObjName>LOGINFO_PK</sourceObjName>
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 09:10:30 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB661725-18AB-5A6A-29F5-C94D8251C4F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

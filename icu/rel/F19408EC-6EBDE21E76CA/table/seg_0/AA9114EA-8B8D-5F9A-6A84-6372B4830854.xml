@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA9114EA-8B8D-5F9A-6A84-6372B4830854" name="7v1">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 12:40:08 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="317A7EAE-E74C-0415-ACD9-549291B6E030">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 12:40:08 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_7v1_ID</notNullConstraintName>
+</Column>
+<Column name="PERSON" id="22A2C9EC-C57B-482A-2476-4ECB1F5AA17D">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 12:40:08 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A850DB8-C879-10B2-66CB-517EB0D78791" referredColumn="1BD44309-2876-A4F7-FBD4-AD2A64B88985"/>
+</associations>
+</Column>
+<Column name="800" id="AD3794D2-F9D3-6DEE-83BE-343F1C727374">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 12:40:08 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="815" id="5E8AFFF7-121D-8CD3-D835-6E68EDD117A0">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 12:40:08 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="830" id="E9DA5D9F-AC50-48B7-DC7F-9EF8A6A708D2">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 12:40:08 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="845" id="BD6898AA-740F-F1B7-EAF3-86B8E5C90EB4">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 12:40:08 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_ON" id="EF941776-2C88-2FF9-4DF7-4E8F0959659C">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 12:40:08 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F7BC8D1-FDC6-9AC3-6BA5-2529CAF01E65" name="7v1_PK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 12:40:08 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="317A7EAE-E74C-0415-ACD9-549291B6E030"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C68AF5D-8C9C-6D07-3459-4B01F4786959" name="7v1_PERSON_FK">
+<createdBy>im</createdBy>
+<createdTime>2015-10-25 12:43:02 UTC</createdTime>
+<ownerDesignName>icu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22A2C9EC-C57B-482A-2476-4ECB1F5AA17D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
